@@ -2,7 +2,9 @@ baseURL: 'https://hongkeyu.github.io/'
 languageCode: 'zh-cn'
 title: 'Kevin 的技术晨读'
 theme: 'PaperMod'
-paginate: 20
+
+pagination:
+  pagerSize: 20
 
 params:
   description: "每日 AI/LLM 技术阅读笔记，由 Santi 整理"
@@ -15,7 +17,7 @@ params:
   defaultTheme: auto
   homeInfoParams:
     Title: "Kevin 的技术晨读"
-    Content: |
+    Content: >
       每天早上 7:30 推送一篇 AI/LLM/ML 领域的技术文章，由 Santi 整理。
       涵盖大模型量化、推理优化、因果推断、边缘部署等方向。
 
